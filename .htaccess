@@ -1,0 +1,4 @@
+RewriteEngine on  
+RewriteBase /
+RewriteCond %{THE_REQUEST} (.*)\.html  
+RewriteRule ^(.*)\.html $1.php [L]  

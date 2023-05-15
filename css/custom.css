@@ -1,0 +1,114 @@
+.footer {
+    background: #ececec;
+    padding-bottom: 50px;
+}
+.footer h2 {
+    color: #53bd22;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.footer h3 {
+    color: #53bd22;
+    font-weight: 400;
+    font-size: 25px;
+}
+.footer ul li {
+    margin-bottom: 15px;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footer ul li i {
+    color: #36a88e;
+    margin-right: 15px;
+    font-size: 20px;
+}
+.content.page.tou h2 {
+    color: #40b60a;
+}
+.content.page h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+.content.page h1, .content.page h3 {
+    font-weight: 400;
+    color: #40b60a;
+    margin-top: 0;
+    margin-bottom: 20px;
+	font-family: sans-serif;
+}
+.logo {
+    justify-content: center;
+}
+.logo a:nth-child(2) {
+    color: #fff;
+    font-size: 36px;
+    margin-left: 5px;
+}
+.text-bold {
+    font-weight: 700;
+}
+.content.page .round {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #40b60a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin: 0 auto 10px;
+}
+.content.page h2 {
+    color: #40b60a;
+    margin-top: 0;
+    font-size: 20px;
+}
+.btn-default {
+    background-color: #40b60a;
+    color: #fff;
+}
+.button a {
+    border-radius: .4em;
+    display: inline-block;
+    line-height: 1.1em;
+    padding: 14px 60px;
+    text-decoration: none;
+    vertical-align: top;
+    font-size: 16px;
+	color:#fff;
+}
+.btn-default:hover {
+    background-color: #3ca70b;
+}
+.content {
+	margin-top:10px;
+    background: #fff;
+    display: block;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgb(50 50 50 / 70%);
+}
+.content p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: sans-serif;	
+}
+.content ul li{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+	list-style-type: none;
+}
+.content.page {
+    margin-bottom: 10px;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
