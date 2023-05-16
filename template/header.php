@@ -2,7 +2,7 @@
   <div class="overlay-gradient"></div>
   <div class="container position-relative">
   	<div class="row py-5 px-2 d-flex justify-content-center">
-      <h2>Thiết kế QR CODE Online Miễn phí Vĩnh viễn</h2>
+      <h2><?php echo qrcdr()->getString('description'); ?></h2>
     </div>
     </div>
   </div>
