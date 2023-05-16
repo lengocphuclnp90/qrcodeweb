@@ -42,7 +42,11 @@
 	font-family: sans-serif;
 }
 .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    color: #fff;
 }
 .logo a:nth-child(2) {
     color: #fff;
@@ -50,7 +54,7 @@
     margin-left: 5px;
 }
 .text-bold {
-    font-weight: 700;
+    font-weight: 700px;
 }
 .content.page .round {
     width: 50px;

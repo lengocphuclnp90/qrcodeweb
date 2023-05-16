@@ -157,11 +157,11 @@ $_translations = array(
 	'lienhehotro' => 'Liên hệ hỗ trợ',
 	'huongdansudung' => 'Hướng dẫn sử dụng',
 	'chinhsachbaomat' => 'Chính sách bảo mật',
-	'tenwebsite' => 'Tạo Mã QR',
+	'tenwebsite' => 'Tạo Qr Code .Com',
 	'diachi' => 'Phúc Hưng Store - Nguyễn Thị Minh Khai, TPVL, Tỉnh Vĩnh Long',
 	'dienthoai' => 'Điện thoai: 0704728115',
 	'diachiemail' => 'Email: nqthaivl@gmail.com',
 	'vinhlongweb' => 'Một sản phẩm của Vĩnh Long Web',
 	'trangchu' => 'Trang chủ',
-	'maqrlagi' => 'Mã QR là gì?',
+	'maqrlagi' => 'QR CODE là gì?',
     );

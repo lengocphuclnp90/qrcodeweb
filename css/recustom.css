@@ -1,0 +1,40 @@
+.logo-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo-top a{
+    color: white !important;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo-top-mobile{
+    display: none;
+}
+@media (max-width: 767px) {
+    .logo-top{
+        display: none;
+    }
+    .logo-top-mobile{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .logo-top-mobile a{
+        color: white !important;
+        font-weight: bold;
+        font-size: 18px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
