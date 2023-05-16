@@ -47,6 +47,7 @@ require dirname(__FILE__).'/'.$relative.'include/head.php';
         <link href="<?php echo $relative; ?>bootstrap/<?php echo $rtl['css']; ?>/bootstrap.min.css" rel="stylesheet">
         <link href="<?php echo $relative; ?>css/font-awesome.min.css" rel="stylesheet">
 		<link href="<?php echo $relative; ?>css/custom.css" rel="stylesheet">
+        <link href="<?php echo $relative; ?>css/recustom.css" rel="stylesheet">
         <script src="<?php echo $relative; ?>js/jquery-3.5.1.min.js"></script>
         <?php
         qrcdr()->loadQRcdrCSS($version);

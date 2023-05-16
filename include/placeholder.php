@@ -1,4 +1,4 @@
-<nav class="navbar sticky-top">
+<nav class="navbar sticky-top py-4">
 <div class="placeresult bg-light d-grid">
     <div class="form-group text-center wrapresult">
         <div class="resultholder">
@@ -8,7 +8,7 @@
     </div>
     <div class="preloader"><i class="fa fa-cog fa-spin"></i></div>
     <input type="hidden" class="holdresult">
-    <button class="btn btn-lg btn-block btn-primary ellipsis generate_qrcode<?php echo $rounded_btn_save; ?>" disabled><i class="fa fa-check"></i> <?php echo qrcdr()->getString('save'); ?></button>
+    <button class="btn btn-lg btn-block btn-primary ellipsis generate_qrcode<?php echo $rounded_btn_save; ?>" disabled><i class="fa fa-download" aria-hidden="true"></i> <?php echo qrcdr()->getString('save'); ?></button>
     <div class="text-center mt-2 linksholder"></div>
 </div>
 <?php

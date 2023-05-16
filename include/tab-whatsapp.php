@@ -4,7 +4,7 @@
  */
 if (qrcdr()->getConfig('whatsapp') == true) { ?>
     <div class="tab-pane fade<?php if ($getsection === "#whatsapp") echo " show active"; ?>" id="whatsapp">
-        <h4>WhatsApp</h4>
+	<h4><?php echo qrcdr()->getString('content'); ?></h4>
         <div class="row">
 		    <div class="col-md-12">
 			<div class="input-group mb-3">

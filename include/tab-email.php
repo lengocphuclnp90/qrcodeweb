@@ -4,7 +4,7 @@
  */
 if (qrcdr()->getConfig('email') == true) { ?>
     <div class="tab-pane fade <?php if ($getsection === "#email") echo "show active"; ?>" id="email">
-        <h4><?php echo qrcdr()->getString('email'); ?></h4>
+	<h4><?php echo qrcdr()->getString('content'); ?></h4>
         <div class="row">
             <div class="col-md-6 form-group">
 			<div class="input-group mb-3">

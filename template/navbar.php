@@ -22,21 +22,21 @@ if (isset($_GET['lang'])) {
 	<div class="collapse navbar-collapse" id="qrcdrNavbar">
 		<ul class="navbar-nav ml-auto">
 		<li class="nav-item">
-			<a class="nav-link" href="/"><?php echo qrcdr()->getString('trangchu'); ?></a>
+			<a class="nav-link" href="/"><i class="fa fa-home" aria-hidden="true"></i> <?php echo qrcdr()->getString('trangchu'); ?></a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="qr-code-la-gi.html"><?php echo qrcdr()->getString('maqrlagi'); ?></a>
+			<a class="nav-link" href="qr-code-la-gi.html"><i class="fa fa-qrcode" aria-hidden="true"></i> <?php echo qrcdr()->getString('maqrlagi'); ?></a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="huong-dan-su-dung-ma-qr.html"><?php echo qrcdr()->getString('huongdansudung'); ?></a>
+			<a class="nav-link" href="huong-dan-su-dung-ma-qr.html"><i class="fa fa-question-circle" aria-hidden="true"></i> <?php echo qrcdr()->getString('huongdansudung'); ?></a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="chinh-sach-bao-mat.html"><?php echo qrcdr()->getString('chinhsachbaomat'); ?></a>
+			<a class="nav-link" href="chinh-sach-bao-mat.html"><i class="fa fa-shield" aria-hidden="true"></i> <?php echo qrcdr()->getString('chinhsachbaomat'); ?></a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link" href="dieu-khoan-su-dung.html"><?php echo qrcdr()->getString('dieukhoansudung'); ?></a>
+			<a class="nav-link" href="dieu-khoan-su-dung.html"><i class="fa fa-bookmark" aria-hidden="true"></i> <?php echo qrcdr()->getString('dieukhoansudung'); ?></a>
 		</li>
-		<li class="langmenu nav-item dropdown show">
+		<li class="langmenu nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 				<i class="fa fa-language" aria-hidden="true"></i> Language
 			</a>

@@ -4,7 +4,7 @@
  */
 if (qrcdr()->getConfig('sms') == true) { ?>
     <div class="tab-pane fade <?php if ($getsection === "#sms") echo "show active"; ?>" id="sms">
-        <h4><?php echo qrcdr()->getString('sms'); ?></h4>
+	<h4><?php echo qrcdr()->getString('content'); ?></h4>
         <div class="row">
 		    <div class="col-md-12">
 			<div class="input-group mb-3">

@@ -155,7 +155,7 @@
               <div class="col-md-4 col-sm-12 col-xs-12"></div>
               <div class="col-md-4 col-sm-12 col-xs-12 text-center">
                 <button class="btn btn-default button text-bold border-none btn-100 sticky-bottom-on-small">
-                  <a span class="align" href="https://taomaqr.xyz">Tạo QRCODE</span></a>
+                  <a span class="align" href="https://taoqrcode.com">Tạo QRCODE</span></a>
                 </button>
               </div>
               <div class="col-md-4 col-sm-12 col-xs-12"></div>

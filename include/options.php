@@ -217,12 +217,12 @@ $collapsed = qrcdr()->getConfig('accordion') == true ? '' : ' show';
         ?>
     <div class="col-12">
         <small><?php echo qrcdr()->getString('upload_or_select_watermark'); ?></small>
-        <div class="custom-file">
+        <div class="custom-file" >
           <input type="file" name="file" class="custom-file-input form-control" aria-describedby="validate-upload" id="upmarker">
-            <div id="validate-upload" class="invalid-feedback">
+            <div id="validate-upload" class="invalid-feedback" >
                 <?php echo qrcdr()->getString('invalid_image'); ?>
             </div>
-          <label class="custom-file-label" for="file"></label>
+          <label class="custom-file-label" for="file" ></label>
         </div>
     </div>
         <?php

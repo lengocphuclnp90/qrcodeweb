@@ -4,7 +4,7 @@
  */
 if (qrcdr()->getConfig('event') == true) { ?>
     <div class="tab-pane fade <?php if ($getsection === "#event") echo "show active"; ?>" id="event">
-        <h4><?php echo qrcdr()->getString('event'); ?></h4>
+    <h4><?php echo qrcdr()->getString('content'); ?></h4>
         <div class="row">
             <div class="col-sm-6 form-group">
                 <label><?php echo qrcdr()->getString('event_title'); ?></label>

@@ -4,7 +4,7 @@
  */
 if (qrcdr()->getConfig('vcard') == true) { ?>
     <div class="tab-pane fade <?php if ($getsection === "#vcard") echo "show active"; ?>" id="vcard">
-        <h4><?php echo qrcdr()->getString('vcard'); ?></h4>
+	<h4><?php echo qrcdr()->getString('content'); ?></h4>
         <div class="row">
             <div class="col-md-6 form-group">
 			<div class="input-group mb-3">

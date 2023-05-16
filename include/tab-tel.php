@@ -4,7 +4,7 @@
  */
 if (qrcdr()->getConfig('tel') == true) { ?>
     <div class="tab-pane fade <?php if ($getsection === "#tel") echo "show active"; ?>" id="tel">
-        <h4><?php echo qrcdr()->getString('tel'); ?></h4>
+    <h4><?php echo qrcdr()->getString('content'); ?></h4>
         <div class="row">
             <div class="col-md-12">
 			<div class="input-group mb-3">

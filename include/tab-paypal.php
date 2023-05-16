@@ -4,7 +4,7 @@
  */
 if (qrcdr()->getConfig('paypal') == true) { ?>
     <div class="tab-pane fade <?php if ($getsection === "#paypal") echo "show active"; ?>" id="paypal">
-        <h4><?php echo qrcdr()->getString('paypal'); ?></h4>
+    <h4><?php echo qrcdr()->getString('content'); ?></h4>
         <div class="row form-group">
 
             <div class="col-sm-6">

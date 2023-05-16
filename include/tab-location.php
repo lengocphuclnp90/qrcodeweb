@@ -4,7 +4,7 @@
  */
 if (qrcdr()->getConfig('location') == true) { ?>
     <div class="tab-pane fade <?php if ($getsection === "#location") echo "show active"; ?>" id="location">
-        <h4><?php echo qrcdr()->getString('location'); ?></h4>
+    <h4><?php echo qrcdr()->getString('content'); ?></h4>
     <?php
     $google_api_key = qrcdr()->getConfig('google_api_key');
     if (!$google_api_key || $google_api_key == 'YOUR-API-KEY' || strlen($google_api_key) < 10) { ?>

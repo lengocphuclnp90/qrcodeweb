@@ -4,7 +4,7 @@
  */
 if (qrcdr()->getConfig('skype') == true) { ?>
 <div class="tab-pane fade <?php if ($getsection === "#skype") echo "show active"; ?>" id="skype">
-    <h4>Skype</h4>
+<h4><?php echo qrcdr()->getString('content'); ?></h4>
 
     <div class="form-group">
         <div class="custom-control custom-radio custom-control-inline">

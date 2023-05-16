@@ -18,10 +18,14 @@
                      */ ?>
                     <div class="col-12 pb-2">
                         <div class="row">
+                        <div class="col-12 p-2">
+                            <h4 ><?php echo qrcdr()->getString('type'); ?></h4>
+                        </div>
                             <?php
                             require dirname(__FILE__).'/tabnav.php';
                             ?>
-                            <div class="tab-content mt-3" id="dataTabs">
+                            <!-- <hr> -->
+                            <div class="tab-content mt-3 py-3" id="dataTabs">
                             <?php
                             require dirname(__FILE__).'/tab-link.php';
                             require dirname(__FILE__).'/tab-text.php';
@@ -39,7 +43,8 @@
                             require dirname(__FILE__).'/tab-bitcoin.php';
                             ?>
                             </div> <!-- tab content -->
-
+                            <!-- <hr> -->
+                            <h4><?php echo qrcdr()->getString('designqr'); ?></h4>
                             <?php require dirname(__FILE__).'/options.php'; ?>
                             </div><!-- main-col open at tabnav -->
                         </div> <!-- row -->

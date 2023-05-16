@@ -48,7 +48,7 @@ if (qrcdr()->getConfig('delete_old_files')) {
 $rounded_btn_options = qrcdr()->getConfig('rounded_buttons');
 $rounded_btn_options = $rounded_btn_options === true ? '["tabnav", "options", "save"]' : $rounded_btn_options;
 $rounded_btn_options = $rounded_btn_options ? json_decode($rounded_btn_options) : array();
-$rounded_btn_opt = in_array('options', $rounded_btn_options) ? ' rounded-pill' : '';
+$rounded_btn_opt = in_array('options', $rounded_btn_options) ? ' rounded-5' : '';
 $rounded_btn_save = in_array('save', $rounded_btn_options) ? ' rounded-pill' : ' rounded-0';
 $rounded_btn_nav = in_array('tabnav', $rounded_btn_options) ? ' rounded-pill' : '';
 require dirname(dirname(__FILE__)).'/lib/countrycodes.php';

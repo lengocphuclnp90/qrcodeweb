@@ -4,7 +4,7 @@
  */
 if (qrcdr()->getConfig('bitcoin') == true) { ?>
     <div class="tab-pane fade <?php if ($getsection === "#bitcoin") echo "show active"; ?>" id="bitcoin">
-        <h4><?php echo qrcdr()->getString('bitcoin'); ?></h4>
+    <h4><?php echo qrcdr()->getString('content'); ?></h4>
         <div class="row form-group">
             <div class="col-sm-6">
                 <label><?php echo qrcdr()->getString('account'); ?></label>

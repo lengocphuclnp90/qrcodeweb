@@ -4,7 +4,7 @@
  */
 if (qrcdr()->getConfig('wifi') == true) { ?>
     <div class="tab-pane fade <?php if ($getsection === "#wifi") echo "show active"; ?>" id="wifi">
-        <h4><?php echo qrcdr()->getString('wifi'); ?></h4>
+	<h4><?php echo qrcdr()->getString('content'); ?></h4>
         <div class="row form-group">
             <div class="col-md-4">
 			<div class="input-group mb-3">
