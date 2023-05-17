@@ -1,4 +1,4 @@
-<div class="bg-primary position-relative pt-5">
+<div class="bg-primary position-relative pt-1 pt-lg-5">
   <div class="overlay-gradient"></div>
   <div class="container position-relative">
   	<div class="row py-5 px-2 d-flex justify-content-center">

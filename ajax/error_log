@@ -1,0 +1,189 @@
+[16-May-2023 17:28:24 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 3, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 3, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('https://www.fac...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('https://www.fac...', '/home/lnpchann/...', 'M', 24, 3, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[16-May-2023 17:28:37 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 3, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 3, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('https://www.fac...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('https://www.fac...', '/home/lnpchann/...', 'M', 24, 3, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[16-May-2023 17:28:40 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 3, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 3, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('https://www.fac...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('https://www.fac...', '/home/lnpchann/...', 'M', 24, 3, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[16-May-2023 17:28:44 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 3, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 3, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('https://www.fac...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('https://www.fac...', '/home/lnpchann/...', 'M', 24, 3, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[16-May-2023 17:28:45 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 3, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 3, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('https://www.fac...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('https://www.fac...', '/home/lnpchann/...', 'M', 24, 3, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[16-May-2023 17:28:47 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 3, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 3, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('https://www.fac...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('https://www.fac...', '/home/lnpchann/...', 'M', 24, 3, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[16-May-2023 17:28:49 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 3, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 3, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('https://www.fac...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('https://www.fac...', '/home/lnpchann/...', 'M', 24, 3, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[16-May-2023 17:42:27 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 2, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 2, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('WIFI:S:VAN_HIEN...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('WIFI:S:VAN_HIEN...', '/home/lnpchann/...', 'M', 24, 2, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[16-May-2023 22:49:33 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 2, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 2, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('https://www.fac...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('https://www.fac...', '/home/lnpchann/...', 'M', 24, 2, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[17-May-2023 01:02:36 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 2, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 2, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('tel:0396384515', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('tel:0396384515', '/home/lnpchann/...', 'M', 24, 2, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[17-May-2023 01:02:58 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 2, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 2, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('tel:0396384515', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('tel:0396384515', '/home/lnpchann/...', 'M', 24, 2, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[17-May-2023 01:03:10 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 2, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 2, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('tel:0396384515', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('tel:0396384515', '/home/lnpchann/...', 'M', 24, 2, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[17-May-2023 01:03:13 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 2, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 2, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('tel:0396384515', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('tel:0396384515', '/home/lnpchann/...', 'M', 24, 2, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[17-May-2023 01:03:23 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 2, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 2, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('tel:0396384515', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('tel:0396384515', '/home/lnpchann/...', 'M', 24, 2, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[17-May-2023 01:03:31 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 2, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 2, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('tel:0396384515', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('tel:0396384515', '/home/lnpchann/...', 'M', 24, 2, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[17-May-2023 01:03:37 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 23, 11, 'transparent', 0, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 23, 11, false, 'transparent', 0, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('tel:0396384515', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('tel:0396384515', '/home/lnpchann/...', 'M', 24, 11, false, 'transparent', 0, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[17-May-2023 01:25:32 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 3, 'transparent', 15134482, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 3, false, 'transparent', 15134482, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('SMSTO:039638451...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('SMSTO:039638451...', '/home/lnpchann/...', 'M', 24, 3, false, 'transparent', 15134482, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[17-May-2023 01:25:33 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 3, 'transparent', 15134482, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 3, false, 'transparent', 15134482, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('SMSTO:039638451...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('SMSTO:039638451...', '/home/lnpchann/...', 'M', 24, 3, false, 'transparent', 15134482, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[17-May-2023 01:25:38 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 3, 'transparent', 15134482, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 3, false, 'transparent', 15134482, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('SMSTO:039638451...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('SMSTO:039638451...', '/home/lnpchann/...', 'M', 24, 3, false, 'transparent', 15134482, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[17-May-2023 01:26:47 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 3, 'transparent', 15134482, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 3, false, 'transparent', 15134482, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('SMSTO:039638451...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('SMSTO:039638451...', '/home/lnpchann/...', 'M', 24, 3, false, 'transparent', 15134482, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217
+[17-May-2023 01:26:55 UTC] PHP Fatal error:  Uncaught TypeError: dechex(): Argument #1 ($num) must be of type int, string given in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php:217
+Stack trace:
+#0 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(217): dechex('transparent')
+#1 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(173): QRvct::_vectSVG(Array, 24, 3, 'transparent', 592136, Array, false)
+#2 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(135): QRvct::svg(Array, '/home/lnpchann/...', 24, 3, false, 'transparent', 592136, Array)
+#3 /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php(47): QRencdr->encodeSVG('SMSTO:039638451...', '/home/lnpchann/...', false, Array)
+#4 /home/lnpchann/taoqrcode.com/ajax/process.php(481): QRcdr::svg('SMSTO:039638451...', '/home/lnpchann/...', 'M', 24, 3, false, 'transparent', 592136, Array)
+#5 {main}
+  thrown in /home/lnpchann/taoqrcode.com/lib/class-qrcdr.php on line 217

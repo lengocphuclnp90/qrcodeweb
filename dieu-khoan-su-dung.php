@@ -55,7 +55,7 @@ require dirname(__FILE__).'/'.$relative.'include/head.php';
         qrcdr()->setMainColor(qrcdr()->getConfig('color_primary'));
         ?>
     </head>
-    <body class="qrcdr">
+    <body class="qrcdr pt-5 pt-lg-4">
         <?php
         if (file_exists(dirname(__FILE__).'/'.$relative.'template/navbar.php')) {
             include dirname(__FILE__).'/'.$relative.'template/navbar.php';

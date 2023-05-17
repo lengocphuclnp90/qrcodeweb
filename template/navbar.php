@@ -19,7 +19,7 @@ if (isset($_GET['lang'])) {
 		<a href="/"><img src="/images/logo.png" width="40px" alt="logo" ></a>
 		<a href="/"><?php echo qrcdr()->getString('tenwebsite'); ?></a>
 	</div>
-	<div class="collapse navbar-collapse" id="qrcdrNavbar">
+	<div class="collapse navbar-collapse pt-3 py-lg-1" id="qrcdrNavbar">
 		<ul class="navbar-nav ml-auto">
 		<li class="nav-item">
 			<a class="nav-link" href="/"><i class="fa fa-home" aria-hidden="true"></i> <?php echo qrcdr()->getString('trangchu'); ?></a>
